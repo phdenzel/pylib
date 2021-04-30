@@ -11,7 +11,7 @@ def arctan(p, q, precision=Fraction(1, 10**1000)):
     """
     Calculate arctan with a Taylor series upto a certain precision
 
-    Taylor expansion: arctan(x) ~ x − x**3/3 + x**5/5 − x**7/7 + ...
+    Taylor expansion: arctan(x) = x - x**3/3 + x**5/5 - x**7/7 + ...
     """
     xterm = Fraction(p, q)
     denom = 1
